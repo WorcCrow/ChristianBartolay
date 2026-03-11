@@ -1,0 +1,11 @@
+body {
+    background: url("background.webp");
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #030a17;
+    text-align: center;
+}
+
+.cloth {
+    display: inline-block;
+}

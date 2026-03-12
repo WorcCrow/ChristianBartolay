@@ -68,4 +68,54 @@ tutorial webpage** that someone could use to learn the basics of HTML.
 
 ## Topics to Cover
 
-Insert the full list of HTML topics here.
+Basic HTML Tags & Structure
+1. Create a basic HTML page with <!DOCTYPE html>
+2. Add <html>, <head>, and <body> elements
+3. Add a <title> to your page
+4. Add a heading using <h1>
+5. Add headings <h2> to <h6>
+6. Add a paragraph using <p>
+7. Add a horizontal line <hr>
+8. Add a line break <br>
+9. Add bold text <b>
+10. Add italic text <i>
+11. Add underlined text <u>
+12. Add emphasized text <em>
+13. Add strong text <strong>
+14. Add a blockquote <blockquote>
+15. Add preformatted text <pre>
+16. Add a div container <div>
+17. Add a span inline container <span>
+18. Add comments <!-- comment -->
+19. Add a non-breaking space &nbsp;
+20. Add a sample link <a href="https://example.com">Example</a>
+21. Create an email link <a href="mailto:test@example.com">Email Me</a>
+22. Create a phone link <a href="tel:+1234567890">Call Me</a>
+23. Create an anchor link <a href="#section1">Go to Section 1</a>
+24. Add an image <img src="image.jpg" alt="Description">
+25. Add a favicon <link rel="icon" href="favicon.ico">
+26. Use the <strong> tag for importance
+27. Use <mark> to highlight text
+28. Use <small> for fine print
+29. Use <sub> and <sup> for subscript/superscript
+30. Create a comment that is ignored by the browser
+31. Add a horizontal line with styling <hr style="color:red;">
+32. Nest a <span> inside a <p>
+33. Add multiple paragraphs
+34. Create a simple “About Me” page
+35. Add a blockquote with a citation
+36. Use <code> to display code snippets
+37. Use <kbd> for keyboard input
+38. Use <samp> for sample output
+39. Use <var> for variables
+40. Add multiple headings and paragraphs
+41. Add a “My Favorite Quote” section
+42. Add line breaks in a poem
+43. Nest headings inside a <div>
+44. Use inline styles to change text color
+45. Add background color to <body>
+46. Create a paragraph with multiple inline styles
+47. Add a horizontal line with width 50%
+48. Add bold and italic combined <b><i>Text</i></b>
+49. Use <hr> with height 5px
+50. Create a basic HTML template with <head> and <body>

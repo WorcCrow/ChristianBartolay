@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!-- 18, 30: This is a comment ignored by the browser -->
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Basics Showcase</title> <!-- 3 -->
+  <link rel="icon" href="favicon.ico"> <!-- 25 -->
+
+  <style>
+    body {
+      /* 45 */
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #374151;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    section {
+      background: white;
+      margin: 30px auto;
+      padding: 25px;
+      max-width: 900px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .description {
+      background: #eef2ff;
+      padding: 10px;
+      border-left: 4px solid #6366f1;
+      margin-bottom: 15px;
+    }
+
+    img {
+      max-width: 200px;
+      border-radius: 6px;
+    }
+
+    code {
+      background: #f1f1f1;
+      padding: 3px 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>HTML Basics Demonstration</h1> <!-- 4 -->
+    <p>A simple “About Me” style page demonstrating many HTML tags.</p>
+  </header>
+
+  <nav>
+    <a href="#text">Text Tags</a>
+    <a href="#links">Links</a>
+    <a href="#media">Images</a>
+    <a href="#quote">Quotes</a>
+  </nav>
+
+  <!-- SECTION 1 -->
+  <section id="text">
+    <h2>Text Formatting and Basic Elements</h2> <!-- 5 -->
+
+    <div class="description">
+      Covers topics: 5–17, 19, 26–33, 36–40, 44, 46, 48
+    </div>
+
+    <h3>Paragraph Examples</h3>
+    <p>This is a simple paragraph using the <code>&lt;p&gt;</code> tag.</p> <!-- 6 -->
+
+    <p>
+      This paragraph includes <b>bold</b> (9),
+      <i>italic</i> (10),
+      <u>underlined</u> (11),
+      <em>emphasized</em> (12),
+      and <strong>important text</strong> (13,26).
+    </p>
+
+    <p>
+      Text can also be <mark>highlighted</mark> (27) or shown as
+      <small>fine print</small> (28).
+    </p>
+
+    <p>
+      Chemical formula example: H<sub>2</sub>O (29) <br>
+      Mathematical example: x<sup>2</sup> (29)
+    </p>
+
+    <p>
+      You can nest elements like a
+      <span style="color:blue;">span inside a paragraph</span>. <!-- 17,32 -->
+    </p>
+
+    <p style="color:purple; font-weight:bold;">
+      This paragraph uses multiple inline styles. <!-- 46 -->
+    </p>
+
+    <p>
+      Combining tags: <b><i>Bold and italic text</i></b> (48)
+    </p>
+
+    <h4>Multiple Paragraphs</h4>
+    <p>Paragraph one example.</p>
+    <p>Paragraph two example.</p>
+    <p>Paragraph three example.</p>
+
+    <p>Non-breaking space example: Hello&nbsp;&nbsp;World! (19)</p>
+
+  </section>
+
+  <!-- SECTION 2 -->
+  <section id="links">
+    <h2>Links and Navigation</h2>
+
+    <div class="description">
+      Covers topics: 20–23
+    </div>
+
+    <p>
+      Visit an external website:
+      <a href="https://example.com">Example</a>
+    </p>
+
+    <p>
+      Send email:
+      <a href="mailto:test@example.com">Email Me</a>
+    </p>
+
+    <p>
+      Call phone number:
+      <a href="tel:+1234567890">Call Me</a>
+    </p>
+
+    <p>
+      Jump to another section:
+      <a href="#quote">Go to Favorite Quote</a>
+    </p>
+
+  </section>
+
+  <!-- SECTION 3 -->
+  <section id="media">
+
+    <h2>Images and Media</h2>
+
+    <div class="description">
+      Covers topics: 24
+    </div>
+
+    <p>Example image:</p>
+
+    <img src="image.jpg" alt="Sample Image Description">
+
+  </section>
+
+  <!-- SECTION 4 -->
+  <section id="quote">
+
+    <h2>My Favorite Quote</h2> <!-- 41 -->
+
+    <div class="description">
+      Covers topics: 14, 35
+    </div>
+
+    <blockquote cite="https://example.com">
+      “The best way to predict the future is to invent it.”
+    </blockquote>
+
+  </section>
+
+  <!-- SECTION 5 -->
+  <section>
+
+    <h2>Code and Technical Tags</h2>
+
+    <div class="description">
+      Covers topics: 15, 36–39
+    </div>
+
+    <p>Example code snippet:</p>
+    <code>console.log("Hello World");</code>
+
+    <p>Keyboard input example:</p>
+    <kbd>Ctrl</kbd> + <kbd>S</kbd>
+
+    <p>Sample output:</p>
+    <samp>Hello World Output</samp>
+
+    <p>Variable example:</p>
+    <var>x</var> = 10
+
+    <pre>
+function hello(){
+    console.log("Preformatted text example");
+}
+    </pre>
+
+  </section>
+
+  <!-- SECTION 6 -->
+  <section>
+
+    <h2>Div Containers and Nested Headings</h2>
+
+    <div class="description">
+      Covers topics: 16, 40, 43
+    </div>
+
+    <div>
+      <h3>Nested Heading Level 3</h3>
+      <p>This heading is inside a div container.</p>
+
+      <h4>Heading Level 4</h4>
+      <h5>Heading Level 5</h5>
+      <h6>Heading Level 6</h6>
+    </div>
+
+  </section>
+
+  <!-- SECTION 7 -->
+  <section>
+
+    <h2>Poem Example</h2>
+
+    <div class="description">
+      Covers topics: 8, 42
+    </div>
+
+    <p>
+      Roses are red,<br>
+      Violets are blue,<br>
+      HTML is simple,<br>
+      And coding is fun too.
+    </p>
+
+  </section>
+
+  <!-- Horizontal Lines -->
+  <section>
+
+    <h2>Horizontal Lines</h2>
+
+    <div class="description">
+      Covers topics: 7, 31, 47, 49
+    </div>
+
+    <hr>
+
+    <hr style="color:red;"> <!-- 31 -->
+
+    <hr style="width:50%;"> <!-- 47 -->
+
+    <hr style="height:5px; background:black;"> <!-- 49 -->
+
+  </section>
+
+  <footer style="text-align:center; padding:20px;">
+    <p style="color:gray;">Simple About Me HTML Template Example</p> <!-- 34 -->
+  </footer>
+
+</body>
+
+</html>

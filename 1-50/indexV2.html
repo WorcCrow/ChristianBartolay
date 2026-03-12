@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Basics Tutorial</title> <!-- 25. Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <style>
+    /* General Page Styling */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f4f6f9;
+      /* 45. background color */
+      line-height: 1.6;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    /* Header */
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    /* Navigation */
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    /* Sections */
+    section {
+      background: white;
+      margin: 30px 0;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #2c3e50;
+    }
+
+    .example {
+      background: #f0f0f0;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Beginner HTML Tutorial</h1>
+    <p>A simple guide demonstrating fundamental HTML tags and structure.</p>
+  </header>
+  <nav> <a href="#structure">Structure</a> <a href="#text">Text Formatting</a> <a href="#links">Links</a> <a
+      href="#media">Media</a> <a href="#semantic">Semantic & Special Tags</a> <a href="#practice">Practice Page</a>
+  </nav>
+  <div class="container"> <!-- Introduction -->
+    <section>
+      <h2>Introduction</h2>
+      <p>This tutorial demonstrates many fundamental HTML elements. Each section shows real examples rendered directly
+        on the page.</p>
+    </section>
+    <hr> <!-- STRUCTURE -->
+    <section id="structure">
+      <h2>HTML Structure Basics</h2>
+      <p> Description: This section demonstrates the fundamental structure of an HTML document including the basic
+        template, headings, paragraphs, containers, and spacing elements. </p>
+      <p><strong>Topics Covered:</strong> 1,2,3,4,5,6,7,8,16,17,18,30,40,43,50 </p>
+      <div class="example">
+        <h1>Main Heading (H1)</h1>
+        <h2>Sub Heading (H2)</h2>
+        <h3>Sub Heading (H3)</h3>
+        <h4>Sub Heading (H4)</h4>
+        <h5>Sub Heading (H5)</h5>
+        <h6>Sub Heading (H6)</h6>
+        <p>This is a paragraph using the <span>span inline container</span>.</p>
+        <p> This paragraph shows a line break<br> between two sentences. </p>
+        <hr>
+        <div>
+          <h3>Heading inside a DIV</h3>
+          <p>This demonstrates headings nested inside a div container.</p>
+        </div>
+      </div>
+    </section> <!-- TEXT FORMATTING -->
+    <section id="text">
+      <h2>Text Formatting</h2>
+      <p> Description: Demonstrates text styling elements including emphasis, importance, highlighting, and inline
+        formatting. </p>
+      <p><strong>Topics Covered:</strong> 9,10,11,12,13,26,27,28,29,32,46,48 </p>
+      <div class="example">
+        <p> <b>Bold text</b><br> <i>Italic text</i><br> <u>Underlined text</u><br> <em>Emphasized text</em><br>
+          <strong>Strong importance</strong><br> <mark>Highlighted text</mark><br> <small>Small fine print</small> </p>
+        <p> Water Formula: H<sub>2</sub>O<br> Math Example: 10<sup>2</sup> = 100 </p>
+        <p style="color:blue; font-weight:bold;"> This paragraph demonstrates multiple inline styles. </p>
+        <p><b><i>Bold and Italic combined</i></b></p>
+      </div>
+    </section> <!-- LINKS -->
+    <section id="links">
+      <h2>Links and Navigation</h2>
+      <p> Description: Demonstrates different types of hyperlinks including external links, email links, phone links,
+        and anchor navigation. </p>
+      <p><strong>Topics Covered:</strong> 20,21,22,23 </p>
+      <div class="example">
+        <p> <a href="https://example.com">Visit Example Website</a> </p>
+        <p> <a href="mailto:test@example.com">Email Me</a> </p>
+        <p> <a href="tel:+1234567890">Call Me</a> </p>
+        <p> <a href="#structure">Go to Structure Section</a> </p>
+      </div>
+    </section> <!-- MEDIA -->
+    <section id="media">
+      <h2>Images and Media</h2>
+      <p> Description: Demonstrates how to embed images and media within HTML pages. </p>
+      <p><strong>Topics Covered:</strong> 24</p>
+      <div class="example"> <img src="https://via.placeholder.com/300" alt="Example Image"> </div>
+    </section> <!-- SPECIAL TAGS -->
+    <section id="semantic">
+      <h2>Special HTML Tags</h2>
+      <p> Description: This section demonstrates semantic and special formatting tags often used for quotes, code
+        examples, and technical content. </p>
+      <p><strong>Topics Covered:</strong> 14,15,35,36,37,38,39,41,42 </p>
+      <div class="example">
+        <h3>Favorite Quote</h3>
+        <blockquote cite="https://example.com"> "The best way to learn programming is by building projects."
+        </blockquote>
+        <pre>function hello(){    console.log("Hello World");}</pre>
+        <p>Use <code>console.log()</code> to print messages.</p>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>
+        <p>Sample output: <samp>Hello World</samp></p>
+        <p>Variable example: <var>x</var> = 10</p>
+        <h3>Poem Example</h3>
+        <p> Roses are red<br> Violets are blue<br> HTML is simple<br> And fun to learn too </p>
+      </div>
+    </section> <!-- PRACTICE PAGE -->
+    <section id="practice">
+      <h2>Simple "About Me" Page Example</h2>
+      <p> Description: This section combines several HTML elements to simulate a simple personal webpage. </p>
+      <p><strong>Topics Covered:</strong> 31,33,34,44,47,49 </p>
+      <div class="example">
+        <h3 style="color:green;">About Me</h3>
+        <p>Hello! My name is Alex.</p>
+        <p>I enjoy learning web development.</p>
+        <hr style="color:red;"> <!-- 31 -->
+        <p>My hobbies include coding, reading, and music.</p>
+        <hr style="width:50%;"> <!-- 47 -->
+        <hr style="height:5px; background:black;"> <!-- 49 -->
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>Beginner HTML Tutorial Page</p>
+    <p>Practice HTML by editing and expanding this file.</p>
+  </footer>
+</body>
+
+</html>
